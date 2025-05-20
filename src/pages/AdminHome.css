@@ -1,0 +1,60 @@
+.admin-home {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.admin-home h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-table th,
+.book-table td {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.book-table th {
+  background-color: #f5f5f5;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.unavailable {
+  color: red;
+  font-weight: bold;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-book-btn {
+  padding: 8px 14px;
+  margin-bottom: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-book-btn:hover {
+  background-color: #218838;
+}
